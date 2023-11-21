@@ -1,0 +1,1741 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,100&family=Six+Caps&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #000;
+  caret-color: transparent;
+}
+.parisbox {
+  box-sizing: border-box;
+  padding-bottom: 0;
+}
+section#bg {
+  position: absolute;
+  width: 93.75rem;
+  z-index: 1;
+  /* height: 600px; */
+}
+
+section#bg video {
+  z-index: 1;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: -44px;
+  height: 800px;
+  object-fit: cover;
+  object-position: center;
+  /* width: 1280px; */
+  /* height: 1200px; */
+  width: 91.75rem;
+  height: 80rem;
+}
+
+section#bg h1 {
+  z-index: 1;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Six Caps", sans-serif;
+  position: absolute;
+  top: 80px;
+  left: 310px;
+  background-color: #000;
+  color: #fff;
+  font-size: 44rem;
+  font-weight: 350;
+  text-align: center;
+  /* line-height: 1000px; */
+  width: 51.25rem;
+  height: 62.5rem;
+  /* width: 100%; */
+  mix-blend-mode: darken;
+  font-family: "Six Caps", sans-serif; /* Assuming "Six Caps" is the font you want */
+  transform: scaleX(1.9) scaleY(1.7);
+  /* transform-origin: bottom; */
+  letter-spacing: -0.025cap;
+  /* padding-top: 0px; */
+  z-index: 1;
+}
+
+/* Navbar STylying */
+.navbar {
+  z-index: 2;
+}
+.desktop-6,
+.desktop-6 * {
+  box-sizing: border-box;
+  /* margin-bottom: 80px; */
+}
+.desktop-6 {
+  background: #000000;
+  width: 100%;
+  height: 130px;
+  width: 1800px;
+  height: 140px !important;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+.dateTimeBox {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 20px;
+  background-color: black;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+  width: 400px;
+  position: relative;
+  height: 20px;
+  padding: 0 0;
+  top: -45px;
+  left: 1021px;
+  z-index: 8;
+  font-weight: 600;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.logo img {
+  color: #ffffff;
+  text-align: left;
+  font: 400 48px "Montserrat", sans-serif;
+  position: absolute;
+  z-index: 4;
+  left: 50px;
+  top: 24px;
+  width: 75px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.explore-paris {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Montserrat", sans-serif;
+  position: absolute;
+  left: 240px;
+  top: 26px;
+  width: 133px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.plan-your-trip {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Montserrat", sans-serif;
+  position: absolute;
+  left: 380px;
+  top: 26px;
+  width: 140px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.discover-attractions {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Montserrat", sans-serif;
+  position: absolute;
+  left: 527px;
+  top: 26px;
+  width: 201px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.more {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Montserrat", sans-serif;
+  position: absolute;
+  left: 728px;
+  top: 26px;
+  width: 56px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.rectangle-22 {
+  background: #a41818;
+  width: 80px;
+  height: 32px;
+  position: absolute;
+  left: 1210px;
+  top: 40px;
+  z-index: 4;
+  color: white;
+  text-align: center;
+  border-radius: 2px;
+}
+.rectangle-23 {
+  background: #ffffff;
+  width: 80px;
+  height: 32px;
+  position: absolute;
+  left: 1300px;
+  top: 40px;
+  z-index: 4;
+  text-align: center;
+  border-radius: 2px;
+}
+.text1 {
+  font: 400 16px "Montserrat", sans-serif;
+  background-color: #a41818;
+  position: relative;
+  position: relative;
+  top: 5px;
+  z-index: 3;
+}
+.text2 {
+  font: 400 16px "Montserrat", sans-serif;
+  background-color: white;
+  position: relative;
+  top: 5px;
+}
+.text3 {
+  font: 400 16px "Montserrat", sans-serif;
+  background-color: #a41818;
+  position: relative;
+  position: relative;
+  top: 10px;
+  z-index: 3;
+}
+.text4 {
+  font: 400 16px "Montserrat", sans-serif;
+  background-color: white;
+  position: relative;
+  top: 10px;
+}
+.line-30 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 1500px;
+  height: 0px;
+  position: absolute;
+  /* left: 60px; */
+  top: 130px;
+  /* transform-origin: 0 0; */
+  /* transform: rotate(-0.04deg) scale(1, 1); */
+  z-index: 7;
+}
+
+/* Body1 Styling */
+
+.desktop-7,
+.desktop-7 * {
+  box-sizing: border-box;
+}
+.desktop-7 {
+  background: #000000;
+  width: 100%;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+  margin-left: 10px;
+}
+.txtslide {
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  letter-spacing: 7px;
+  font-weight: 700;
+}
+.litm {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  list-style: none;
+}
+.pia {
+  margin-right: 120px;
+}
+.pib {
+  margin-left: 140px;
+}
+.mi {
+  margin: 0 130px;
+}
+.rectangle-14 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 3px;
+  width: 130px;
+  height: 40px;
+  position: absolute;
+  left: 63px;
+  top: 878px;
+  color: white;
+  text-align: center;
+}
+.txtvs {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+  top: 5px;
+  font-weight: 600;
+}
+.our-story {
+  color: #ffffff;
+  text-align: left;
+  font: 700 60px "Arial", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 60px;
+  top: 612px;
+  width: 374px;
+  height: 232px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nullam-mollis-lorem-augue-ac-suscipit-odio-interdum-et-suspendisse-nisi-nisi-malesuada-a-ipsum-nec-imperdiet-efficitur-elit-vivamus-in-sem-nec-risus-maximus-aliquam {
+  color: #ffffff;
+  text-align: left;
+  font: 700 48px "Montserrat", sans-serif;
+  position: absolute;
+  top: 652px;
+  width: 880px;
+  height: 295px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  left: 495px !important;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur {
+  color: #ffffff;
+  text-align: left;
+  font: 700 36px "Montserrat", sans-serif;
+  position: absolute;
+  left: 80px;
+  top: 36px;
+  width: 1280px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-11 {
+  background: #d9d9d9;
+  width: 353px;
+  height: 280px;
+  position: absolute;
+  left: 60px;
+  top: 90px;
+}
+.rectangle-12 {
+  background: #d9d9d9;
+  width: 353px;
+  height: 280px;
+  position: absolute;
+  left: 995px;
+  top: 90px;
+}
+.rectangle-13 {
+  background: #d9d9d9;
+  width: 473px;
+  height: 440px;
+  position: absolute;
+  left: 470px;
+  top: 90px;
+}
+.line-2 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 440px;
+  height: 0px;
+  position: absolute;
+  left: 40px;
+  top: 987px;
+}
+.line-3 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 440px;
+  height: 0px;
+  position: absolute;
+  left: 960px;
+  top: 987px;
+}
+.line-4 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 440px;
+  height: 0px;
+  position: absolute;
+  left: 500px;
+  top: 987px;
+}
+.line-12 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 451.97px;
+  height: 0px;
+  position: absolute;
+  left: 79px;
+  top: 146px;
+  transform-origin: 0 0;
+  transform: rotate(38.442deg) scale(1, 1);
+}
+.line-13 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 450.73px;
+  height: 0px;
+  position: absolute;
+  left: 79px;
+  top: 426px;
+  transform-origin: 0 0;
+  transform: rotate(-38.243deg) scale(1, 1);
+}
+.line-14 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 649.57px;
+  height: 0px;
+  position: absolute;
+  left: 484px;
+  top: 145px;
+  transform-origin: 0 0;
+  transform: rotate(42.879deg) scale(1, 1);
+}
+.line-15 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 646.8px;
+  height: 0px;
+  position: absolute;
+  left: 485px;
+  top: 586px;
+  transform-origin: 0 0;
+  transform: rotate(-42.744deg) scale(1, 1);
+}
+.line-16 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 452.13px;
+  height: 0px;
+  position: absolute;
+  left: 1005px;
+  top: 147px;
+  transform-origin: 0 0;
+  transform: rotate(38.264deg) scale(1, 1);
+}
+.line-17 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 450.11px;
+  height: 0px;
+  position: absolute;
+  left: 1006px;
+  top: 425px;
+  transform-origin: 0 0;
+  transform: rotate(-38.143deg) scale(1, 1);
+}
+
+/* Body2 Styling */
+.desktop-8,
+.desktop-8 * {
+  box-sizing: border-box;
+}
+.desktop-8 {
+  background: #000000;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-6 {
+  background: #a41818;
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  left: 585px;
+  top: 220px;
+}
+.rectangle-7 {
+  background: #ffffff;
+  width: 120px;
+  height: 40px;
+  position: absolute;
+  left: 721px;
+  top: 220px;
+}
+.discover-the-magic-of-paris-with {
+  color: #ffffff;
+  text-align: center;
+  font: 700 60px "Arial", sans-serif;
+  position: absolute;
+  left: 297px;
+  top: -49px;
+  width: 848px;
+  height: 232px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nullam-mollis {
+  color: #ffffff;
+  text-align: center;
+  font: 700 24px "Montserrat", sans-serif;
+  position: absolute;
+  left: 433px;
+  top: 141px;
+  width: 575px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-8 {
+  background: #d9d9d9;
+  width: 1280px;
+  height: 627px;
+  position: absolute;
+  left: 80px;
+  top: 301px;
+}
+.line-5 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 440px;
+  height: 0px;
+  position: absolute;
+  left: 40px;
+  top: 1004px;
+}
+.line-6 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 440px;
+  height: 0px;
+  position: absolute;
+  left: 960px;
+  top: 1004px;
+}
+.line-7 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 440px;
+  height: 0px;
+  position: absolute;
+  left: 500px;
+  top: 1004px;
+}
+.line-18 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 1421.7px;
+  height: 0px;
+  position: absolute;
+  left: 73px;
+  top: 297px;
+  transform-origin: 0 0;
+  transform: rotate(26.349deg) scale(1, 1);
+}
+.line-19 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 1424px;
+  height: 0px;
+  position: absolute;
+  left: 80px;
+  top: 925px;
+  transform-origin: 0 0;
+  transform: rotate(-25.989deg) scale(1, 1);
+}
+
+/* Body3 */
+.desktop-11,
+.desktop-11 * {
+  box-sizing: border-box;
+}
+.desktop-11 {
+  background: #000000;
+  width: 1440px;
+  height: 670px;
+  position: relative;
+  overflow: hidden;
+}
+.line-43 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 1440px;
+  height: 0px;
+  position: absolute;
+  left: -1531px;
+  top: 490px;
+  transform-origin: 0 0;
+  transform: rotate(-0.04deg) scale(1, 1);
+}
+.find-the-perfect-itinerary {
+  color: #ffffff;
+  text-align: left;
+  font: 700 32px "Arial", sans-serif;
+  position: absolute;
+  left: 80px;
+  top: 407px;
+  width: 360px;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.find-the-perfect-accomodation {
+  color: #ffffff;
+  text-align: left;
+  font: 700 32px "Arial", sans-serif;
+  position: absolute;
+  left: 1000px;
+  top: 407px;
+  width: 360px;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.discover-the-best-places-to-eat {
+  color: #ffffff;
+  text-align: left;
+  font: 700 32px "Arial", sans-serif;
+  position: absolute;
+  left: 526px;
+  top: 407px;
+  width: 388px;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nullam-mollis-lorem-augue-ac-suscipit-odio-interdum-et-suspendisse-nisi-nisi {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Montserrat", sans-serif;
+  position: absolute;
+  left: 82px;
+  top: 478px;
+  width: 348px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nullam-mollis-lorem-augue-ac-suscipit-odio-interdum-et-suspendisse-nisi-nisi2 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Montserrat", sans-serif;
+  position: absolute;
+  left: 526px;
+  top: 478px;
+  width: 348px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nullam-mollis-lorem-augue-ac-suscipit-odio-interdum-et-suspendisse-nisi-nisi3 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Montserrat", sans-serif;
+  position: absolute;
+  left: 999px;
+  top: 474px;
+  width: 348px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.eiffel-tower {
+  width: 43px;
+  height: 43px;
+  position: absolute;
+  left: 79px;
+  top: 329px;
+}
+.eiffel-tower2 {
+  width: 43px;
+  height: 43px;
+  position: absolute;
+  left: 521px;
+  top: 329px;
+}
+.eiffel-tower3 {
+  width: 43px;
+  height: 43px;
+  position: absolute;
+  left: 998px;
+  top: 329px;
+}
+.explore-paris-with-our-comprehensive-guide {
+  color: #ffffff;
+  text-align: left;
+  font: 700 48px "Arial", sans-serif;
+  position: absolute;
+  left: 79px;
+  top: 78px;
+  width: 848px;
+  height: 232px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Body4 */
+.desktop-12,
+.desktop-12 * {
+  box-sizing: border-box;
+}
+.desktop-12 {
+  background: #000000;
+  width: 1440px;
+  height: 724px;
+  position: relative;
+  overflow: hidden;
+}
+.discover-the-city-s-gems {
+  color: #ffffff;
+  text-align: center;
+  font: 700 48px "Arial", sans-serif;
+  position: absolute;
+  left: 295px;
+  top: 49px;
+  width: 848px;
+  height: 122px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stay-updated-with-the-latest-blogs {
+  color: #ffffff;
+  text-align: center;
+  font: 700 16px "Montserrat", sans-serif;
+  position: absolute;
+  left: 488px;
+  top: 142px;
+  width: 462px;
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+.explore-the-art-scene-in-paris {
+  color: #ffffff;
+  text-align: left;
+  font: 700 24px "Arial", sans-serif;
+  position: absolute;
+  left: 81px;
+  top: 478px;
+  width: 360px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 4;
+}
+.the-best-cafes-in-paris {
+  color: #ffffff;
+  text-align: left;
+  font: 700 24px "Arial", sans-serif;
+  position: absolute;
+  left: 519px;
+  top: 478px;
+  width: 360px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nullam-mollis-lorem-augue-ac-suscipit-odio-interdum-et-suspendisse-nisi-nisi2 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 14px "Montserrat", sans-serif;
+  position: absolute;
+  left: 519px;
+  top: 488px;
+  width: 348px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.hidden-gems-of-paris {
+  color: #ffffff;
+  text-align: left;
+  font: 700 24px "Arial", sans-serif;
+  position: absolute;
+  left: 961px;
+  top: 478px;
+  width: 360px;
+  height: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 4;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nullam-mollis-lorem-augue-ac-suscipit-odio-interdum-et-suspendisse-nisi-nisi {
+  color: #ffffff;
+  text-align: left;
+  font: 400 14px "Montserrat", sans-serif;
+  position: absolute;
+  left: 81px;
+  top: 488px;
+  width: 348px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.art {
+  color: #ffffff;
+  text-align: left;
+  font: 400 14px "Montserrat", sans-serif;
+  position: absolute;
+  left: 81px;
+  top: 459px;
+  width: 348px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 4;
+}
+.joe-don-t {
+  color: #ffffff;
+  text-align: left;
+  font: 400 14px "Montserrat", sans-serif;
+  position: absolute;
+  left: 161px;
+  top: 617px;
+  width: 106px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 4;
+}
+.joe-don-t2 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 14px "Montserrat", sans-serif;
+  position: absolute;
+  left: 601px;
+  top: 617px;
+  width: 106px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 4;
+}
+.joe-don-t3 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 14px "Montserrat", sans-serif;
+  position: absolute;
+  left: 1040px;
+  top: 617px;
+  width: 106px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 4;
+}
+._30-august-2023-5-min-read {
+  color: #ffffff;
+  text-align: left;
+  font: 400 14px "Montserrat", sans-serif;
+  position: absolute;
+  left: 160px;
+  top: 644px;
+  width: 240px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 4;
+}
+._30-august-2023-5-min-read2 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 14px "Montserrat", sans-serif;
+  position: absolute;
+  left: 600px;
+  top: 644px;
+  width: 240px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+._30-august-2023-5-min-read3 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 14px "Montserrat", sans-serif;
+  position: absolute;
+  left: 1039px;
+  top: 644px;
+  width: 240px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.food {
+  color: #ffffff;
+  text-align: left;
+  font: 400 14px "Montserrat", sans-serif;
+  position: absolute;
+  left: 519px;
+  top: 459px;
+  width: 348px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 4;
+}
+.travel {
+  color: #ffffff;
+  text-align: left;
+  font: 400 14px "Montserrat", sans-serif;
+  position: absolute;
+  left: 960px;
+  top: 459px;
+  width: 348px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 4;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nullam-mollis-lorem-augue-ac-suscipit-odio-interdum-et-suspendisse-nisi-nisi3 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 14px "Montserrat", sans-serif;
+  position: absolute;
+  left: 998px;
+  top: 488px;
+  width: 348px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.rectangle-29 {
+  background: #d9d9d9;
+  width: 398px;
+  height: 198px;
+  position: absolute;
+  left: 81px;
+  top: 234px;
+}
+.rectangle-30 {
+  background: #d9d9d9;
+  width: 398px;
+  height: 198px;
+  position: absolute;
+  left: 961px;
+  top: 234px;
+}
+.rectangle-31 {
+  background: #d9d9d9;
+  width: 398px;
+  height: 198px;
+  position: absolute;
+  left: 521px;
+  top: 234px;
+}
+.ellipse-12 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  left: 81px;
+  top: 613px;
+}
+.ellipse-13 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  left: 521px;
+  top: 613px;
+}
+.ellipse-14 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  left: 960px;
+  top: 613px;
+}
+.line-45 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 449.91px;
+  height: 0px;
+  position: absolute;
+  left: 75px;
+  top: 234px;
+  transform-origin: 0 0;
+  transform: rotate(26.109deg) scale(1, 1);
+}
+.line-46 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 447.22px;
+  height: 0px;
+  position: absolute;
+  left: 78px;
+  top: 432px;
+  transform-origin: 0 0;
+  transform: rotate(-26.279deg) scale(1, 1);
+}
+.line-47 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 449.91px;
+  height: 0px;
+  position: absolute;
+  left: 515px;
+  top: 235px;
+  transform-origin: 0 0;
+  transform: rotate(26.109deg) scale(1, 1);
+}
+.line-48 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 447.22px;
+  height: 0px;
+  position: absolute;
+  left: 518px;
+  top: 433px;
+  transform-origin: 0 0;
+  transform: rotate(-26.279deg) scale(1, 1);
+}
+.line-49 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 449.91px;
+  height: 0px;
+  position: absolute;
+  left: 961px;
+  top: 235px;
+  transform-origin: 0 0;
+  transform: rotate(26.109deg) scale(1, 1);
+}
+.line-50 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 447.22px;
+  height: 0px;
+  position: absolute;
+  left: 964px;
+  top: 433px;
+  transform-origin: 0 0;
+  transform: rotate(-26.279deg) scale(1, 1);
+}
+.rectangle-32 {
+  background: #d9d9d9;
+  width: 398px;
+  height: 198px;
+  position: absolute;
+  left: 81px;
+  top: 234px;
+}
+.rectangle-33 {
+  background: #d9d9d9;
+  width: 398px;
+  height: 198px;
+  position: absolute;
+  left: 961px;
+  top: 234px;
+}
+.rectangle-34 {
+  background: #d9d9d9;
+  width: 398px;
+  height: 198px;
+  position: absolute;
+  left: 521px;
+  top: 234px;
+}
+.ellipse-15 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  left: 81px;
+  top: 613px;
+  z-index: 4;
+}
+.ellipse-16 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  left: 521px;
+  top: 613px;
+  z-index: 4;
+}
+.ellipse-17 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 51px;
+  height: 51px;
+  position: absolute;
+  left: 960px;
+  top: 613px;
+  z-index: 4;
+}
+.line-51 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 449.91px;
+  height: 0px;
+  position: absolute;
+  left: 75px;
+  top: 234px;
+  transform-origin: 0 0;
+  transform: rotate(26.109deg) scale(1, 1);
+}
+.line-52 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 447.22px;
+  height: 0px;
+  position: absolute;
+  left: 78px;
+  top: 432px;
+  transform-origin: 0 0;
+  transform: rotate(-26.279deg) scale(1, 1);
+}
+.line-53 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 449.91px;
+  height: 0px;
+  position: absolute;
+  left: 515px;
+  top: 235px;
+  transform-origin: 0 0;
+  transform: rotate(26.109deg) scale(1, 1);
+}
+.line-54 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 447.22px;
+  height: 0px;
+  position: absolute;
+  left: 518px;
+  top: 433px;
+  transform-origin: 0 0;
+  transform: rotate(-26.279deg) scale(1, 1);
+}
+.line-55 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 449.91px;
+  height: 0px;
+  position: absolute;
+  left: 961px;
+  top: 235px;
+  transform-origin: 0 0;
+  transform: rotate(26.109deg) scale(1, 1);
+}
+.line-56 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 447.22px;
+  height: 0px;
+  position: absolute;
+  left: 964px;
+  top: 433px;
+  transform-origin: 0 0;
+  transform: rotate(-26.279deg) scale(1, 1);
+}
+
+/* Body5 */
+
+.desktop-13,
+.desktop-13 * {
+  box-sizing: border-box;
+}
+.desktop-13 {
+  background: #000000;
+  width: 1440px;
+  height: 924px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-15 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 3px;
+  width: 140px;
+  height: 40px;
+  position: absolute;
+  left: 82px;
+  top: 845px;
+  color: white;
+  text-align: center;
+  z-index: 4;
+}
+.txt5 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+  top: 5px;
+  font-weight: 600;
+}
+.our-team {
+  color: #ffffff;
+  text-align: left;
+  font: 700 60px "Arial", sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  left: 82px;
+  top: 630px;
+  width: 374px;
+  height: 232px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-nullam-mollis-lorem-augue-ac-suscipit-odio-interdum-et-suspendisse-nisi-nisi-malesuada-a-ipsum-nec-imperdiet-efficitur-elit-vivamus-in-sem-nec-risus-maximus-aliquam {
+  color: #ffffff;
+  text-align: left;
+  font: 700 30px "Montserrat", sans-serif;
+  position: absolute;
+  left: 522px;
+  top: 642px;
+  width: 880px;
+  height: 295px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rectangle-16 {
+  background: #d9d9d9;
+  width: 834px;
+  height: 472px;
+  position: absolute;
+  left: 518px;
+  top: 114px;
+}
+.rectangle-17 {
+  background: #d9d9d9;
+  width: 398px;
+  height: 312px;
+  position: absolute;
+  left: 74px;
+  top: 114px;
+}
+.line-26 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 512.12px;
+  height: 0px;
+  position: absolute;
+  left: 79px;
+  top: 110px;
+  transform-origin: 0 0;
+  transform: rotate(38.101deg) scale(1, 1);
+}
+.line-27 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 504.48px;
+  height: 0px;
+  position: absolute;
+  left: 84px;
+  top: 424px;
+  transform-origin: 0 0;
+  transform: rotate(-37.915deg) scale(1, 1);
+}
+.line-28 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 961.9px;
+  height: 0px;
+  position: absolute;
+  left: 523px;
+  top: 112px;
+  transform-origin: 0 0;
+  transform: rotate(29.523deg) scale(1, 1);
+}
+.line-29 {
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px 0 0 0;
+  width: 957.21px;
+  height: 0px;
+  position: absolute;
+  left: 525px;
+  top: 582px;
+  transform-origin: 0 0;
+  transform: rotate(-29.27deg) scale(1, 1);
+}
+
+/* Body6 */
+.desktop-14,
+.desktop-14 * {
+  box-sizing: border-box;
+}
+.desktop-14 {
+  background: #000000;
+  width: 1440px;
+  height: 490px;
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-to-our-newsletter {
+  color: #ffffff;
+  text-align: left;
+  font: 700 16px "Arial", sans-serif;
+  position: absolute;
+  left: 82px;
+  top: 163px;
+  width: 428px;
+  height: 77px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.column-one {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Arial", sans-serif;
+  position: absolute;
+  left: 840px;
+  top: 199px;
+  width: 120px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.column-one2 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Arial", sans-serif;
+  position: absolute;
+  left: 1040px;
+  top: 199px;
+  width: 120px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.column-one3 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Arial", sans-serif;
+  position: absolute;
+  left: 1262px;
+  top: 196px;
+  width: 120px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.column-one4 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Arial", sans-serif;
+  position: absolute;
+  left: 840px;
+  top: 244px;
+  width: 120px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.column-one5 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Arial", sans-serif;
+  position: absolute;
+  left: 1040px;
+  top: 244px;
+  width: 120px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.column-one6 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Arial", sans-serif;
+  position: absolute;
+  left: 1262px;
+  top: 241px;
+  width: 120px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.column-one7 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Arial", sans-serif;
+  position: absolute;
+  left: 840px;
+  top: 289px;
+  width: 120px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.column-one8 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Arial", sans-serif;
+  position: absolute;
+  left: 1040px;
+  top: 289px;
+  width: 160px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.column-one9 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Arial", sans-serif;
+  position: absolute;
+  left: 1262px;
+  top: 286px;
+  width: 120px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.logoe {
+  position: absolute;
+  top: 177.5px;
+  left: 1230px;
+}
+.column-one10 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Arial", sans-serif;
+  position: absolute;
+  left: 840px;
+  top: 334px;
+  width: 120px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+._2023-all-rights-reserved {
+  color: #ffffff;
+  text-align: left;
+  font: 400 12px "Arial", sans-serif;
+  position: absolute;
+  left: 40px;
+  top: 457px;
+  width: 189px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.privacy-policy {
+  color: #ffffff;
+  text-align: left;
+  font: 400 12px "Arial", sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 995px;
+  top: 457px;
+  width: 75px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.terms-of-service {
+  color: #ffffff;
+  text-align: left;
+  font: 400 12px "Arial", sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 1108px;
+  top: 457px;
+  width: 94px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.cookie-settings {
+  color: #ffffff;
+  text-align: left;
+  font: 400 12px "Arial", sans-serif;
+  text-decoration: underline;
+  position: absolute;
+  left: 1240px;
+  top: 457px;
+  width: 94px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.column-one11 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Arial", sans-serif;
+  position: absolute;
+  left: 1040px;
+  top: 334px;
+  width: 160px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.column-one12 {
+  color: #ffffff;
+  text-align: left;
+  font: 400 16px "Arial", sans-serif;
+  position: absolute;
+  left: 1262px;
+  top: 331px;
+  width: 120px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.your-email-com {
+  color: #868484;
+  text-align: left;
+  font: 700 16px "Arial", sans-serif;
+  position: absolute;
+  left: 94px;
+  top: 247px;
+  width: 400px;
+  height: 39px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  z-index: 3;
+}
+.rectangle-21 {
+  border-radius: 30px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 440px;
+  height: 53px;
+  position: absolute;
+  left: 80px;
+  top: 240px;
+}
+.line-8 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 440px;
+  height: 0px;
+  position: absolute;
+  left: 40px;
+  top: 108px;
+}
+.line-9 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 440px;
+  height: 0px;
+  position: absolute;
+  left: 960px;
+  top: 108px;
+}
+.line-10 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 440px;
+  height: 0px;
+  position: absolute;
+  left: 500px;
+  top: 108px;
+}
+.line-11 {
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px 0 0 0;
+  width: 1360px;
+  height: 0px;
+  position: absolute;
+  left: 40px;
+  top: 446px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.ellipse-4 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 1px;
+  width: 53px;
+  height: 53px;
+  position: absolute;
+  left: 547px;
+  top: 240px;
+}
+.ellipse-5 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 1238px;
+  top: 199px;
+}
+.ellipse-6 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 1238px;
+  top: 244px;
+}
+.ellipse-7 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 1238px;
+  top: 289px;
+}
+.ellipse-8 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 19px;
+  height: 19px;
+  position: absolute;
+  left: 1238px;
+  top: 334px;
+}
+.right-arrow {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 559px;
+  top: 251px;
+}
+
+.afterbody {
+  position: absolute;
+  top: 1450px;
+  left: 30px;
+  z-index: 2;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  overflow-x: hidden;
+}
+
+.bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+  padding: 25px 0;
+
+  background-color: black;
+  color: white;
+
+  font-family: Gelasio;
+  font-size: 18px;
+  z-index: 3;
+}
+
+.bar_content {
+  display: block; /* Important to give the content a width */
+
+  width: 100%;
+  transform: translateX(100%); /* Animation start out of the screen */
+
+  /* Add the animation */
+  animation: move 40s linear infinite
+    /* infinite make reapeat the animation indefinitely */;
+}
+
+/* Create the animation */
+@keyframes move {
+  to {
+    transform: translateX(-100%);
+  }
+}
